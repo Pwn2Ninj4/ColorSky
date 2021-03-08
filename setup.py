@@ -23,7 +23,7 @@ setup(
     name=name,
     version=version,
     url='https://github.com/Pwn2Ninja/ColorSky',
-    download_url='https://github.com/Pwn2Ninja/ColorSky',
+    download_url='https://github.com/Pwn2Ninja/ColorSky/tarball/master',
     author='Pwn2Ninja',
     author_email='danex251@gmail.com',
     description='Imprime cadenas coloridas en tu terminal!',
