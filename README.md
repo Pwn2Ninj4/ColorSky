@@ -2,8 +2,7 @@
 Esta librería de Python te proporciona comodidad a la hora de crear scripts, permite dar color a cadenas y etiquetas
 
 ### Instalación
-```pip
-install ColorSky
+```pip install ColorSky
 ```
 
 
