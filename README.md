@@ -1,56 +1,56 @@
 # ColorSky
-Esta librería de Python te proporciona comodidad a la hora de crear scripts, permite dar color a cadenas y etiquetas
+This Python library provides you with comfort when creating scripts, it allows you to color strings and labels
 
-### Instalación
+### Install
 ```
 pip install ColorSky
 ```
 
 
-### Uso
-Primero, importa la librería ColorSky
+### Usage
+First, import the ColorSky library
 ```python
 from ColorSky import *
 ```
 
-Imprime cadenas coloridas de la siguiente manera
+Print colorful chains as follows
 
 ```python
 print(red('This string is red'))
 ```
 
-Imprime cadenas con los distintos estilos
+Print strings with the different styles
 
 ```python
 print(italic('This string is in italic'))
 ```
 
-Combina estilos con los colores
+Match styles with colors
 
 ```python
 print(bold(red('This string is bold and red')))
 ```
 
-Si se produjo algún error en su programa o algo malo sucedió, no es necesario que imprima toda la línea en rojo. Con ColorSky, simplemente puede hacer esto 
+If there was an error in your program or something bad happened, you do not need to print the entire line in red. With ColorSky, you can simply do this
 
 ```python 
 print(bad('An error ocurred.'))
 ``` 
 
-#### Lista de todos los colores
+#### List of all colors
 
 ```python
 white, grey, black, green, lightgreen, cyan, lightcyan, red, lightred,
 blue, lightblue, purple, light purple, orange, yellow
 ```
 
-#### Lista de todos los estilos
+#### Lista of all styles
 
 ```python
 bold, bg, under, strike, italic
 ```
 
-#### Lista de etiquetas
+#### Label list
 
 ```python
 info, que, run, bad, good
